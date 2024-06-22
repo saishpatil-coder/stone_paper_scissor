@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading">
+        <button id="restart">Restart</button>
+        <h1>Let,s Play</h1>
+    </div>
+    <div class="user container">
+        <div id="stone" class="userstone image"><img src="images/rock.png" alt=""></div>
+        <div id="paper" class="userpaper image"><img src="images/paper.png" alt=""></div>
+        <div id="scissor" class="users image"><img src="images/scissor.png" alt=""></div>
+    </div>
+
+    <div class="start">
+        <h6 style="margin: 0;">User score</h6>
+        <div class="userScore score">0</div>
+        :
+        <h6 style="margin: 0;">Code Score</h6>
+        <div class="codeScore score">0</div>
+    </div>
+
+    <div class="code container">
+        <div id="stone" class="codestone image"><img src="images/rock.png" alt=""></div>
+        <div id="paper" class="codepaper image"><img src="images/paper.png" alt=""></div>
+        <div id="scissor" class=" codes image"><img src="images/scissor.png" alt=""></div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>

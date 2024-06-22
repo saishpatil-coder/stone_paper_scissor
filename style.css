@@ -1,0 +1,71 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:greenyellow;
+    text-align: center;
+}
+.heading{
+    background-color: #081b31;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+}
+h1{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    flex: 8;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user  img:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    gap: 30px;
+}
+img{
+    object-fit: cover;
+    height: 9.5rem;
+    width: 9.5rem;
+    border-radius: 50%;
+}
+
+.start{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 30px;
+    align-items: center;
+}
+button{
+    flex: 1;
+    background-color: blue;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.score{
+    background-color: aliceblue;
+    width: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.pressed{
+    border-width: 15px;
+    border-color: rgb(243, 236, 236);
+    opacity: 50%;
+}
