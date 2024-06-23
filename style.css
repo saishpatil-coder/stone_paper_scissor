@@ -1,15 +1,31 @@
-body{
+*{
+    
     padding: 0;
     margin: 0;
+}
+body{
     background-color:greenyellow;
     text-align: center;
+}
+.user{
+    margin-bottom: 0;
 }
 .heading{
     background-color: #081b31;
     color: white;
     display: flex;
     justify-content: center;
-    height: 3rem;
+    min-height: 3rem;
+    align-items: center;
+    padding-left: 20px;
+}
+.ins{
+    color: #081b31;
+    font-size: larger;
+    margin-bottom: 3rem;
+}
+.hidden{
+    visibility: hidden;
 }
 h1{
     text-align: center;
@@ -24,14 +40,14 @@ h1{
 }
 .user  img:hover{
     cursor: pointer;
-    opacity: 0.6;
+    opacity: 0.4;
 }
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
     gap: 30px;
 }
 img{
@@ -67,5 +83,24 @@ button{
 .pressed{
     border-width: 15px;
     border-color: rgb(243, 236, 236);
-    opacity: 50%;
+    opacity: 30%;
+}
+@media (max-width: 600px) {
+    img {
+        height: 7rem;
+        width: 7rem;
+    }
+    .start {
+        flex-direction: column;
+        gap: 10px;
+        font-size: 24px;
+    }
+    button {
+        width: 80%;
+        font-size: 18px;
+    }
+    .score {
+        width: 40px;
+        font-size: 16px;
+    }
 }
